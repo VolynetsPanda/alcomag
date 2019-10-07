@@ -1,0 +1,8 @@
+.wrapMenu{height: 100%; width: 100%; display: flex;
+    align-items: center; justify-content: center; flex-direction: column;}
+.linkMenu{ text-transform: uppercase; color: #fff; font-size: 32px; text-decoration: none;
+font-weight: bold; opacity: .5; padding: 10px;}
+.activeLinkMenu .linkMenu{ opacity: 1;}
+.li:hover .linkMenu{ opacity: 1;}
+.activeLinkMenu.li::before, .activeLinkMenu.li::after{ content: ""; width: 50%; height: 2px; background: #fff; right: 50%;}
+.li{ overflow: hidden; display: flex;justify-content: center; align-items: center;}

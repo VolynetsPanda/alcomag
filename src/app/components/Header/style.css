@@ -1,0 +1,3 @@
+header{ height: 100vh;width: 100%; background: #09d3ac; position: absolute; left:0px;
+    top:0; transition: .5s}
+.open{width: 200px}
